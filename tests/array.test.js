@@ -23,6 +23,7 @@ describe('Array Utilities', () => {
     expect(calculateAverage([10, 20, 30])).toBe(20);
   });
 
+  // touching the file
   test('flakyIsNull should return true if the value is null', () => {
     expect(flakyIsNull(null)).toBe(true);
   });
