@@ -34,6 +34,7 @@ jobs:
         env:
           NODE_OPTIONS: -r dd-trace/ci/init
           DD_TRACE_DEBUG: 1
+          DD_TRACE_LOG_LEVEL: debug
 
       - name: Check quality gate
         run: |
